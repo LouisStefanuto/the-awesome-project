@@ -19,7 +19,7 @@ jobs:
         python-version: ${{ matrix.python-version }}
     
     - name: Install Poetry
-      uses: pip install poetry
+      run: pip install poetry
 
     - name: 👀 Check python and poetry versions
       run: | 
