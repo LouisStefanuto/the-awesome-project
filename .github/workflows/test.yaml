@@ -18,7 +18,7 @@ jobs:
       with:
         python-version: ${{ matrix.python-version }}
     
-    - name: Install Poetry
+    - name: 🏗️ Install Poetry
       run: |
         pip install poetry
         poetry config virtualenvs.in-project true
