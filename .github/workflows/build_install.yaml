@@ -29,7 +29,7 @@ jobs:
       run: poetry build
 
     - name: 🏗️ Install Package
-      run: pip install dist/*.whl
+      run: pip install dist/*.whl --no-cache-dir
 
     - name: 🧐 Test Package Installation
       run: python -c "import <your_package_name>"
