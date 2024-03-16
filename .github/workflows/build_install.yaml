@@ -32,4 +32,4 @@ jobs:
       run: pip install dist/*.whl --no-cache-dir
 
     - name: 🧐 Test Package Installation
-      run: python -c "import <your_package_name>"
+      run: python -c "import the_awesome_project"
